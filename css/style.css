@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form {
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+    border-radius: 5px;
+}
+.input {
+    display: block;
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border:3px solid rgb(115, 115, 253);
+    border-radius: 3px;
+}
+.button-wrap {
+    margin-left: 128px;
+}
+.button {
+    padding: 10px 20px;
+    background: rgb(72, 72, 255);
+    color: #fff;
+    outline: none;
+    border: 1px solid  rgb(72, 72, 255);
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.button:hover {
+    background: rgb(55, 55, 255);
+}
+.button:focus {
+    background: rgb(44, 44, 255);
+}
+.button-o {
+    background: #fff;
+    border: 1px solid  rgb(115, 115, 253);
+    color: rgb(115, 115, 253);
+}
+.button-o:hover {
+    background: rgb(240, 236, 255);
+    border: 1px solid  rgb(55, 55, 255);
+    color: rgb(55, 55, 255);
+}
+.button-o:focus {
+    background: rgb(226, 226, 255);
+    border: 1px solid rgb(44, 44, 255);
+    color: rgb(44, 44, 255);
+}
