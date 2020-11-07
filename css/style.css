@@ -49,6 +49,21 @@ body {
     border: 1px solid rgb(44, 44, 255);
     color: rgb(44, 44, 255);
 }
+.light {
+    background: #fff;
+    border: 1px solid  rgb(115, 115, 253);
+    color: rgb(115, 115, 253);
+}
+.light:hover {
+    background: rgb(240, 236, 255);
+    border: 1px solid  rgb(55, 55, 255);
+    color: rgb(55, 55, 255);
+}
+.light:focus {
+    background: rgb(226, 226, 255);
+    border: 1px solid rgb(44, 44, 255);
+    color: rgb(44, 44, 255);
+}
 
 /* темная тема */
 .second-page {
